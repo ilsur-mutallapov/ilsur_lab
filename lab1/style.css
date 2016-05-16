@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+	border-top: 4px solid #aaa;
+	background: white;
+	font-family: Tahoma;
+}
+.header{
+	width: 100%;
+	height: 180px;
+	margin: 0 auto;
+	border-bottom: 2px solid rgba(0,0,0,.1);
+	background: #007C44;
+	position: relative;
+}
+.header .contacts{
+	position: absolute;
+	top: 30px;
+	right: 30px;
+ 	color: #fff;
+ 	font-size: 20px;
+}
+.header img{
+	position: absolute;
+	top: 30px;
+	left: 120px;
+}
+.logo {
+	padding: 30px 40px 40px 60px;
+	margin:0;
+	text-align: center;
+}
+
+.logo b{
+	color: yellow;
+	font-size: 80px;
+	float:left;
+	
+}
+.logo p {
+	margin: 0;
+	padding-top: 25px;
+	color: yellow;
+	border-bottom: 2px solid yellow;
+	display: inline-block;
+	font-size: 20px
+}
+.logo span {
+	font-size: 36px;
+	color: #fff;
+	
+}
+
+
+.menu{
+	width: 100%;
+	background: hsl(0,0%,90%);
+	border-bottom: 2px solid rgba(0,0,0,.1);
+}
+.menu ul {
+	width: 40%;
+	margin: auto;
+}
+.menu ul li {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 30%;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.content{
+	margin: 35px auto;
+	border-radius: 3px;
+	width: 100%;
+	height: 100%;
+	background:url(1.jpg);
+}
+
+.footer {
+	text-align:center;
+	background: #007C44;
+	padding: 20px 0;
+}
+.registration {
+	width: 30%;
+	margin: auto;
+	background: hsla(0,0%,0%,.4);
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+.registration  input{
+	height: 30px;
+	margin: 10px auto;
+	display: block;
+}
+textarea{ 
+max-width:100%;
+width: 100%;
+
+}
